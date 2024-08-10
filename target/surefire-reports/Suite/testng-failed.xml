@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="FrameworksDemo.TestComponenets.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ErrorTest(failed)" verbose="0">
+    <classes>
+      <class name="FrameworksDemo.testclasses.ErrorClass">
+        <methods>
+          <include name="loginError"/>
+          <include name="close"/>
+          <include name="productError"/>
+          <include name="LaunchlandingPage"/>
+        </methods>
+      </class> <!-- FrameworksDemo.testclasses.ErrorClass -->
+    </classes>
+  </test> <!-- ErrorTest(failed) -->
+  <test thread-count="5" parallel="classes" name="LoginTest(failed)" verbose="0">
+    <classes>
+      <class name="FrameworksDemo.testclasses.EndToEndClass">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="close"/>
+          <include name="LaunchlandingPage"/>
+          <include name="VerifyOrder"/>
+        </methods>
+      </class> <!-- FrameworksDemo.testclasses.EndToEndClass -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-10T12:36:35 IST" name="Suite" finished-at="2024-08-10T12:37:30 IST" duration-ms="54896">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorClass.loginError()[pri:0, instance:FrameworksDemo.testclasses.ErrorClass@51891008]" name="loginError" class="FrameworksDemo.testclasses.ErrorClass"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="EndToEndClass.submitOrder(java.util.HashMap)[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" name="submitOrder" class="FrameworksDemo.testclasses.EndToEndClass"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-10T12:36:35 IST" name="ErrorTest" finished-at="2024-08-10T12:37:08 IST" duration-ms="33340">
+      <class name="FrameworksDemo.testclasses.ErrorClass">
+        <test-method is-config="true" signature="LaunchlandingPage()[pri:0, instance:FrameworksDemo.testclasses.ErrorClass@51891008]" started-at="2024-08-10T12:36:35 IST" name="LaunchlandingPage" finished-at="2024-08-10T12:36:44 IST" duration-ms="9003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchlandingPage -->
+        <test-method signature="loginError()[pri:0, instance:FrameworksDemo.testclasses.ErrorClass@51891008]" started-at="2024-08-10T12:36:44 IST" name="loginError" finished-at="2024-08-10T12:36:51 IST" duration-ms="7038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginError -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FrameworksDemo.testclasses.ErrorClass@51891008]" started-at="2024-08-10T12:36:51 IST" name="close" finished-at="2024-08-10T12:36:52 IST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="LaunchlandingPage()[pri:0, instance:FrameworksDemo.testclasses.ErrorClass@51891008]" started-at="2024-08-10T12:36:52 IST" name="LaunchlandingPage" finished-at="2024-08-10T12:37:03 IST" duration-ms="10253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchlandingPage -->
+        <test-method signature="productError()[pri:0, instance:FrameworksDemo.testclasses.ErrorClass@51891008]" started-at="2024-08-10T12:37:03 IST" name="productError" finished-at="2024-08-10T12:37:06 IST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productError -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FrameworksDemo.testclasses.ErrorClass@51891008]" started-at="2024-08-10T12:37:06 IST" name="close" finished-at="2024-08-10T12:37:08 IST" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FrameworksDemo.testclasses.ErrorClass -->
+    </test> <!-- ErrorTest -->
+    <test started-at="2024-08-10T12:36:35 IST" name="LoginTest" finished-at="2024-08-10T12:37:30 IST" duration-ms="54896">
+      <class name="FrameworksDemo.testclasses.EndToEndClass">
+        <test-method is-config="true" signature="LaunchlandingPage()[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:36:35 IST" name="LaunchlandingPage" finished-at="2024-08-10T12:36:44 IST" duration-ms="8926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchlandingPage -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:36:44 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-10T12:37:00 IST" duration-ms="15675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=ZARA COAT 3, pwd=Npr@0612, email=NITISHREDDYSEERAPU@GMAIL.COM}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:37:00 IST" name="close" finished-at="2024-08-10T12:37:01 IST" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="LaunchlandingPage()[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:37:01 IST" name="LaunchlandingPage" finished-at="2024-08-10T12:37:14 IST" duration-ms="12720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchlandingPage -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:37:14 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-10T12:37:21 IST" duration-ms="6535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=ADIDAS ORIGINAL, pwd=Ammu@0611, email=register1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:37:21 IST" name="close" finished-at="2024-08-10T12:37:21 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="LaunchlandingPage()[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:37:21 IST" name="LaunchlandingPage" finished-at="2024-08-10T12:37:28 IST" duration-ms="7117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchlandingPage -->
+        <test-method signature="VerifyOrder()[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:37:28 IST" name="VerifyOrder" finished-at="2024-08-10T12:37:30 IST" depends-on-methods="FrameworksDemo.testclasses.EndToEndClass.submitOrder" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FrameworksDemo.testclasses.EndToEndClass@72bc6553]" started-at="2024-08-10T12:37:30 IST" name="close" finished-at="2024-08-10T12:37:30 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FrameworksDemo.testclasses.EndToEndClass -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
