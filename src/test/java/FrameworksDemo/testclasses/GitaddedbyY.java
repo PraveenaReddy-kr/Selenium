@@ -7,7 +7,7 @@ public class GitaddedbyY {
 		System.out.println("Y wrote this");
 		System.out.println("X wrote this");
 		
-		System.out.println("Checking in devlop branch by Y");
+		System.out.println("Checking in devlop branch by Y2");
 	}
 
 }
